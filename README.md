@@ -6,7 +6,8 @@ between the GPS coordinates.
 <h2>☕Java Implementation☕</h2> 
 
 <h4>I Used 3 Different Objects </h4> 
-<strong>GPSCoord</strong> which held the GPS coordinate of the taxi's starting location. <br>
+<br>
+<strong>GPSCoord</strong> which held the GPS coordinate of the taxi's starting location.  <br>
 
 <strong>TripRecord</strong> holds information read from the CSV file: the date,the pickup location,the drop off location and the trip distance. I used the TripRecord as a sort of pointin my DBScan algorithm so we can consider TripRecords as part of clusters or Noise.  <br>
 
