@@ -9,7 +9,7 @@ between the GPS coordinates.
 <br>
 <strong>GPSCoord</strong> which held the GPS coordinate of the taxi's starting location.  <br> <br>
 
-<strong>TripRecord</strong> holds information read from the CSV file: the date,the pickup location,the drop off location and the trip distance. I used the TripRecord as a sort of pointin my DBScan algorithm so we can consider TripRecords as part of clusters or Noise.  <br> <br>
+<strong>TripRecord</strong> holds information read from the CSV file: the date,the pickup location,the drop off location and the trip distance. I used the TripRecord as a sort of pointin my DBScan algorithm so we can consider TripRecords as part of clusters or Noise.  <br> 
 
 <strong>Cluster</strong> class holds the average GPS coordinate as well as the list of TripRecord held in a Cluster. These Clusters are used to calculate and held values that will be listed in a csv file.  <br> 
 
